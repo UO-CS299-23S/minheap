@@ -35,7 +35,6 @@ MinHeap minHeap_create(int capacity) {
     heap->tail = 0;
 
     return heap;
-//    return (MinHeap) 0;   // FIXME
 }
 /* Prints the heap based on the size of tail */
 void print_heap(MinHeap h){
@@ -56,7 +55,7 @@ void swap(int *a, int *b){
 }
 /* Number of elements currently in MinHeap */
 int minHeap_size(MinHeap h) {
-    return h->tail;  // FIXME
+    return h->tail;
 }
 
 void _sift_up(MinHeap h, int i){
@@ -70,7 +69,7 @@ void _sift_up(MinHeap h, int i){
     }
 }
 
-void _sift_down(MinHeap h, int i){
+void _sift_down(MinHeap h, int i){ //FIXME
     /*Ended up not using it, probably performance gains for implementating instead of calling
     * sift_up on the whole tree
     */
@@ -101,7 +100,6 @@ int minHeap_min(MinHeap h) {
         return 0;
     }
     return h->el[0];
-//    return 0;  // FIXME
 }
 
 /* Get and delete minimum element from MinHeap.
@@ -118,7 +116,7 @@ int minHeap_extract(MinHeap h) {
     h->tail--;
     //print_heap(h);
     _sift_up(h, h->tail-1);
-    return temp;  // FIXME
+    return temp;
 }
 
 
