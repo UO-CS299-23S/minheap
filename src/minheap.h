@@ -3,7 +3,7 @@
 //
 // This .h file defines the interface to our minheap.
 // Initial straw dog(*) by M Young, please improve.
-
+#include <stdlib.h>
 #ifndef MINHEAP_MINHEAP_H
 #define MINHEAP_MINHEAP_H
 
