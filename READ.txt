@@ -1,0 +1,4 @@
+use command: python setup.py install
+This will allow you to import the module anywhere on ur pc.
+minheap includes, a class MinHeap, and class methods insert, delete, size, and min. 
+In the constructor for a MinHeap object, specify the capacity of the minheap with an integer.
