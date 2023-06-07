@@ -9,5 +9,5 @@ setup(
     name='minheap',
     version='1.0',
     description='A simple C extension module for Python',
-    ext_modules=[Extension('minheap', sources=['minheap/minheap.c'])]
+    ext_modules=[Extension('minheap', sources=['src/minheap_python.c', 'src/minheap.c'])]
 )
