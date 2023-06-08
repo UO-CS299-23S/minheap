@@ -4,3 +4,6 @@ minheap includes, a class MinHeap, and class methods insert, delete, size, and m
 In the constructor for a MinHeap object, specify the capacity of the minheap with an integer.
 You can uninstall the module in the terminal with pip.
 the command is: pip uninstall minheap
+
+*Edit: I just added a string method to show the heap in the visual representation of a list in python.
+You can use it just like a normal __str__ method for the MinHeap class.
